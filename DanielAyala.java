@@ -1,4 +1,3 @@
-
 public class DanielAyala {
 
   String getFullName() {
@@ -24,7 +23,7 @@ public class DanielAyala {
   String getRotatedFullName(int shift) {
     var name = getFullName();
     // if (shift >= 0) {
-      System.out.println(name.substring(0, -2));
+    System.out.println(name.substring(0, -2));
     // } else {
 
     // }
